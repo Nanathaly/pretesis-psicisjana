@@ -9,7 +9,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 }
  
 // Incluir archivo de configuración
-require_once "config.php";
+require_once "config/config.php";
 require_once "php_reset_password.php";
  
 ?>
